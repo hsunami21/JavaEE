@@ -1,0 +1,9 @@
+package wendall.hsu.clock.model;
+
+public class ClockBean {
+
+	public ClockBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,124 @@
+package stephen.mckillop.asgn1.server;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+import stephen.mckillop.asgn1.setup.CourseManager;
+import stephen.mckillop.asgn1.setup.Course;
+import stephen.mckillop.asgn1.exceptions.CourseNotFoundException;
+import stephen.mckillop.asgn1.exceptions.DuplicateCourseException;
+import stephen.mckillop.asgn1.exceptions.InvalidDataException;
+import stephen.mckillop.asgn1.setup.CourseCatalog;
+
+public class CourseServer {
+	private static int port;
+	static final int DEFAULT_PORT = 12345;
+
+	public CourseServer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private static CourseCatalog buildCatalog() {
+		CourseCatalog cm = null;
+		// build courses and add them to course catalog
+		return cm;
+	}
+
+	public static void main(String[] args) {
+		// initialize the course catalog
+		buildCatalog();
+		// initialize the server socket
+		// use default port if no command line arguments
+		port = DEFAULT_PORT;
+		if (args.length > 0) {
+			port = Integer.parseInt(args[0]);
+		}
+		// create a server socket bound to port
+		ServerSocket ss;
+		try {
+			ss = new ServerSocket(port);
+			System.out.println("Course server running on port "
+					+ ss.getLocalPort());
+			while (true) {
+				// main loop -- listen for requests
+				Socket socket = ss.accept();
+				// new socket and streams for each request
+				BufferedReader in = new BufferedReader(new InputStreamReader(
+						socket.getInputStream()));
+				PrintWriter out = new PrintWriter(socket.getOutputStream(),
+						true);
+				// read request and echo to console
+				String request = in.readLine().trim();
+				System.out.println("{" + request + "}");
+				// request starts "GET " "ADD " "DELETE " or "UPDATE "
+				String command = request.substring(0, request.indexOf(" "))
+						.toUpperCase();
+				if (command.equals("GET")) {
+					getCourse(request, out);
+				} else if (command.equals("ADD")) {
+					addCourse(request, out);
+				} else if (command.equals("DELETE")) {
+					deleteCourse(request, out);
+				} else if (command.equals("UPDATE")) {
+					updateCourse(request, out);
+				} else {
+					out.println("ERROR command " + command + " not supported");
+				}
+				socket.close();
+			}
+		} catch (IOException iox) {
+			iox.printStackTrace();
+		}
+	}
+
+	private static void getCourse(String request, PrintWriter out) {
+		try {
+			String courseCode = request.substring(request.indexOf(" ")).trim();
+			Course course = CourseManager.getInstance().getCourse(courseCode);
+			out.println(course);
+		} catch (CourseNotFoundException e) {
+			out.println("ERROR " + e.getMessage());
+		}
+	}
+
+	private static void addCourse(String request, PrintWriter out) {
+		try {
+			Course course = buildCourse(request);
+			CourseManager.getInstance().addCourse(course);
+			out.println(course);
+		} catch (DuplicateCourseException | InvalidDataException e) {
+			out.println("ERROR " + e.getMessage());
+		}
+	}
+
+	public static void deleteCourse(String request, PrintWriter out) {
+		try {
+			String courseCode = request.substring(request.indexOf(" ")).trim();
+			Course course = CourseManager.getInstance().deleteCourse(
+					courseCode);
+			out.println(course);
+		} catch (CourseNotFoundException e) {
+			out.println("ERROR " + e.getMessage());
+		}
+	}
+
+	public static void updateCourse(String request, PrintWriter out) {
+		try {
+			Course course = buildCourse(request);
+			CourseManager.getInstance().updateCourse(course);
+			out.println(course);
+		} catch (CourseNotFoundException | InvalidDataException e) {
+			out.println("ERROR " + e.getMessage());
+		}
+	}
+
+	public static Course buildCourse(String request)
+			throws InvalidDataException {
+		// Get data from the request and build a local course object 
+		return null;
+	}
+}

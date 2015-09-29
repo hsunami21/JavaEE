@@ -1,0 +1,91 @@
+package stephen.mckillop.asgn1.setup;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import stephen.mckillop.asgn1.setup.Course;
+import stephen.mckillop.asgn1.exceptions.CourseNotFoundException;
+import stephen.mckillop.asgn1.exceptions.DuplicateCourseException;
+
+public class CourseManager implements CourseCatalog {
+	private static CatalogManager instance = null;
+	public static CatalogManager getInstance()
+	{
+		if (instance == null)
+			instance = new CatalogManager();
+		return instance;
+	}
+	
+	protected CourseManager()
+	{
+		course = new ArrayList<Course>();
+	}
+	
+	ArrayList<Course> course;
+
+	public Collection<Course> getAllCourses()
+	{
+		ArrayList<Course> c = new ArrayList<Course>();
+		for (int i= 0; i < course.size(); i++)
+		{
+			c.add(course.get(i));
+		}
+		
+		return c;
+	}
+	
+	@Override
+	public Course addCourse(Course c) throws DuplicateCourseException {
+		for (int i= 0; i < course.size(); i++)
+		{
+			if (course.get(i).getCourseCode() == c.getCourseCode())
+				throw new DuplicateCourseException();
+			
+		}
+		
+		course.add(c);
+		return null;
+	}
+
+	@Override
+	public Course getCourse(String courseCode) throws CourseNotFoundException {
+
+		for (int i= 0; i < course.size(); i++){
+			if (course.get(i).getCourseCode() == courseCode)
+				return course.get(i);
+		}
+		
+		throw new CourseNotFoundException();	
+	}
+
+	@Override
+	public Course updateCourse(Course c) throws CourseNotFoundException {
+		for (int i= 0; i < course.size(); i++)
+		{
+			if (course.get(i).getCourseCode() == c.getCourseCode())
+			{
+				course.set(i, c);
+			}
+		}
+		
+		throw new CourseNotFoundException();
+	}
+
+	@Override
+	public Course deleteCourse(String courseCode) throws CourseNotFoundException {
+		boolean courseFound = false;
+		for (int i= 0; i < course.size(); i++)
+		{
+			if (course.get(i).getCourseCode() == courseCode)
+			{
+				course.remove(i);
+				courseFound = true;
+			}
+		}
+		if (courseFound)
+			return null;
+		else
+			throw new CourseNotFoundException();
+	}
+	
+}

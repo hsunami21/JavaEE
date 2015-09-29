@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.dto.CourseCatalog"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.exceptions.DuplicateCourseException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.exceptions.CourseNotFoundException"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.catalog.CourseCatalog"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.dto.Course"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.dto.Professor"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.catalog.CatalogManager"/>
+<fullyQualifiedTypeName name="wendallhsu.asgn1.exceptions.InvalidDataException"/>
+<fullyQualifiedTypeName name="stephen.mckillop.asgn1.setup.CatalogManager"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="stephen.mckillop.asgn1.exceptions.InvalidDataException"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="wendall.hsu.clock.model.ClockBean"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="wendall.hsu.clock.model.DateTimeFormatException"/>
+</qualifiedTypeNameHistroy>

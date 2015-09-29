@@ -1,0 +1,204 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-08 22:40:15.749
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-08 22:40:17.425
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-08 22:40:24.434
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-09-08 22:41:37.095
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-08 22:41:37.272
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-14 20:42:26.141
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-14 20:42:29.415
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-14 20:42:55.634
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-14 20:44:26.660
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-23 11:20:37.207
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-23 11:20:41.826
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 16842784 2015-09-23 11:20:59.878
+!MESSAGE Poll Thread Aborted: null
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-23 11:20:59.882
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-23 11:33:49.242
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-23 11:33:51.828
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-23 11:34:09.036
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-09-23 11:37:26.985
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com\cc. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com\cc\stock. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:37:26.985
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com\cc\stock. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-23 11:37:36.627
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-23 11:37:49.898
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-23 11:37:50.973
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-23 11:37:59.007
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-09-23 11:45:18.479
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com\cc. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com\cc\stock. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:45:18.479
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\StockPortfolioJSPEAR.ear\StockPortfolioDemoWAR.war\WEB-INF\classes\com\cc\stock. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-23 11:45:26.143
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-23 11:55:29.793
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-23 11:55:31.058
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-23 11:55:38.294
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-09-23 11:55:47.600
+!MESSAGE Module WendallHsuClockWeb on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-09-23 11:56:07.625
+!MESSAGE Module WendallHsuClockWeb on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-09-23 11:56:43.876
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.876
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.876
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.876
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.876
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.876
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.876
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.878
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu\clock. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 11:56:43.878
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu\clock. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-09-23 12:08:50.045
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu\clock. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:08:50.045
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu\clock. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-09-23 12:09:05.599
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-23 12:09:05.814
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-09-23 12:09:22.066
+!MESSAGE The server "WildFly 9.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_51 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-09-23 12:09:23.135
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-09-23 12:09:28.645
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-09-23 12:09:50.498
+!MESSAGE Module WendallHsuClockWeb on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-09-23 12:10:10.520
+!MESSAGE Module WendallHsuClockWeb on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-09-23 12:10:30.150
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu\clock. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-09-23 12:10:30.150
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallHsuClockEAR.ear\WendallHsuClockWeb.war\WEB-INF\classes\wendall\hsu\clock. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-09-23 12:10:44.254
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-09-23 12:10:44.438
+!MESSAGE Server processes have been terminated.
