@@ -3,6 +3,7 @@
 	<name>WendallStephenOnlineElection</name>
 	<comment></comment>
 	<projects>
+		<project>WendallStephenOnlineElectionWeb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import election.web.exceptions.VotingException;
+import wendall.stephen.exceptions.VotingException;
 
 public class Candidates {
 	private static Candidates candidates = null;

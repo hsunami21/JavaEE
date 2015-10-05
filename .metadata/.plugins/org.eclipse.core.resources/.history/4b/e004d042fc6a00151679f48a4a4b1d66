@@ -1,0 +1,7 @@
+package snippet;
+
+public class Snippet {
+	<form action="${pageContext.request.contextPath}/vote" method="get">
+	
+}
+

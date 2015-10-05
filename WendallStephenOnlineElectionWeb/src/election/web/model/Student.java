@@ -1,6 +1,6 @@
 package election.web.model;
 
-import election.web.exceptions.StudentNotRecognizedException;
+import wendall.stephen.exceptions.StudentNotRecognizedException;
 
 public class Student {
 	String studentId;   

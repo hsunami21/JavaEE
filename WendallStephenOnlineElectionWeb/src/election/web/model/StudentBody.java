@@ -3,7 +3,7 @@ package election.web.model;
 import java.util.HashMap;
 import java.util.Map;
 
-import election.web.exceptions.StudentNotRecognizedException;
+import wendall.stephen.exceptions.StudentNotRecognizedException;
 
 public class StudentBody {
 	private static StudentBody electoralRoll = null;

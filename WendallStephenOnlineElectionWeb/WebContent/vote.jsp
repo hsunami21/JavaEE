@@ -4,16 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Voting Page</title>
+<title>Thank You!</title>
 </head>
 <body>
-<h1>Please click to vote for one of:</h1>
-<table>
-	<tr>
-		<td><input type="button" value="Aakash Khan"></td>
-		<td><input type="button" value="Marion Wells"></td>
-		<td><input type="button" value="Damien Yu"></td>
-	</tr>
-</table>
+<h1>Thank you for voting!</h1>
+</body>
 </body>
 </html>
