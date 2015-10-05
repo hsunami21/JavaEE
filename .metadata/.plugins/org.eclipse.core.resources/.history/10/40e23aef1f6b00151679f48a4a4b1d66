@@ -10,11 +10,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import election.web.model.StudentBody;
+import wendall.stephen.exceptions.StudentNotRecognizedException;
 
 /**
  * Servlet implementation class SignInServlet
  */
-@WebServlet("/welcome")
+@WebServlet("/signin")
 public class SignInServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -29,10 +30,11 @@ public class SignInServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		StudentBody sb = StudentBody.getInstance();
 
+		
 			String studentID = request.getParameter("studentID").trim();
 			String password = request.getParameter("password").trim();
 			if (sb.authenticate(studentID, password)) {
