@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import election.web.model.Candidates;
 import election.web.model.StudentBody;
 import wendall.stephen.exceptions.StudentNotRecognizedException;
 
@@ -55,7 +54,7 @@ public class SignInServlet extends HttpServlet {
 				if (StudentBody.getInstance().getStudent(studentID).isAdministrator())
 				{
 					request.getSession().setAttribute("admin", studentID);
-					rd = request.getRequestDispatcher("/admin");
+					rd = request.getRequestDispatcher("/admin.jsp");
 					rd.forward(request, response);
 				}
 				else

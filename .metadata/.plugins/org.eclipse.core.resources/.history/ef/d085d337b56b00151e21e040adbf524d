@@ -31,7 +31,7 @@
 	</tr>
 </table>
 
-<p>The number of votes cast is <span style="font-weight:bold">${requestScope.total }</span>.</p>
+<p>The number of votes cast is <span style="font-weight:bold">XXXXX</span>.</p>
 
 </body>
 </html>

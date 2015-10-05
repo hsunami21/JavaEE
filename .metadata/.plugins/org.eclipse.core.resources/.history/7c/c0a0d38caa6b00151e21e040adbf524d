@@ -9,6 +9,6 @@
 <body>
 <h1>Election error</h1>
 <h4>${requestScope.error}</h4>
-<a href="${pageContext.request.contextPath}/welcome.jsp">try again</a>
+<a href="${pageContext.request.contextPath}/welcome" />
 </body>
 </html>

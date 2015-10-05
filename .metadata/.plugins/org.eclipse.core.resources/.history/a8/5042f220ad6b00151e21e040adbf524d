@@ -10,20 +10,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import election.web.model.Candidates;
-import election.web.model.StudentBody;
-import wendall.stephen.exceptions.VotingException;
 
 /**
- * Servlet implementation class VoteServlet
+ * Servlet implementation class AdminServlet
  */
-@WebServlet("/vote")
-public class VoteServlet extends HttpServlet {
+@WebServlet("/admin")
+public class AdminServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private RequestDispatcher rd;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public VoteServlet() {
+    public AdminServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -41,26 +40,14 @@ public class VoteServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String student = (String) request.getSession().getAttribute("student");
-		try {
-			if (!StudentBody.getInstance().getStudent(student).isVoted())
-			{
-				Candidates.getInstance().voteFor(request.getParameter("Vote").toString());
-				StudentBody.getInstance().getStudent(student).setVoted(true);
-			}
-			else
-				throw new VotingException("Already Voted");
-			
-			RequestDispatcher rd = request.getRequestDispatcher("/vote.jsp");
-			rd.forward(request, response);
-			
-		} catch (VotingException e) {
-			request.setAttribute("error", "There is a problem. You cannot vote twice.");
-			
-			RequestDispatcher rd = request.getRequestDispatcher("/error.jsp");
-			rd.forward(request, response);
-		}
 		
+		try {
+			request.getSession().setAttribute("candidate1", Candidates.getInstance().getVotes(Candidates.getInstance().getBallotNames().get(0)));
+			rd = request.getRequestDispatcher("/admin.jsp");
+			rd.forward(request, response);
+		} catch (Exception e) {
+			System.out.println(e.printStackTrace());
+		}
 		
 		
 	}

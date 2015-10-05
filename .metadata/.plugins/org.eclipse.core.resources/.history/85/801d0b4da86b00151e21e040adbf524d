@@ -55,11 +55,14 @@ public class SignInServlet extends HttpServlet {
 				if (StudentBody.getInstance().getStudent(studentID).isAdministrator())
 				{
 					request.getSession().setAttribute("admin", studentID);
-					rd = request.getRequestDispatcher("/admin");
+					rd = request.getRequestDispatcher("/admin.jsp");
 					rd.forward(request, response);
 				}
 				else
 				{
+					request.getSession().setAttribute("candidate1", Candidates.getInstance().getBallotNames().get(0));
+					request.getSession().setAttribute("candidate2", Candidates.getInstance().getBallotNames().get(1));
+					request.getSession().setAttribute("candidate3", Candidates.getInstance().getBallotNames().get(2));
 					request.getSession().setAttribute("student", studentID);
 					rd = request.getRequestDispatcher("/signin.jsp");
 					rd.forward(request, response);

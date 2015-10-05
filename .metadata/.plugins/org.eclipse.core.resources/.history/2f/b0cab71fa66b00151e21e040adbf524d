@@ -53,7 +53,6 @@ public class VoteServlet extends HttpServlet {
 			
 			RequestDispatcher rd = request.getRequestDispatcher("/vote.jsp");
 			rd.forward(request, response);
-			
 		} catch (VotingException e) {
 			request.setAttribute("error", "There is a problem. You cannot vote twice.");
 			

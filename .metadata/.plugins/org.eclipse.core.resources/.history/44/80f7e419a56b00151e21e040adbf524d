@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import election.web.model.Candidates;
 import election.web.model.StudentBody;
 import wendall.stephen.exceptions.StudentNotRecognizedException;
 
@@ -36,7 +35,20 @@ public class SignInServlet extends HttpServlet {
 	 */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		StudentBody sb = StudentBody.getInstance();
+
+		System.out.println("Do Get Called");
+		String studentID = request.getParameter("studentID").trim();
+		String password = request.getParameter("password").trim();
+		if (sb.authenticate(studentID, password)) {
+			request.getSession().setAttribute("student", studentID);
+			RequestDispatcher rd = request.getRequestDispatcher("/signin.jsp");
+			rd.forward(request, response);
+		}
+		else {
+			RequestDispatcher rd = request.getRequestDispatcher("/error.jsp");
+			rd.forward(request, response);
+		}
 			
 	}
 
@@ -45,34 +57,24 @@ public class SignInServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		StudentBody sb = StudentBody.getInstance();
 			
 		String studentID = request.getParameter("studentID").trim();
 		String password = request.getParameter("password").trim();
 
-		try {
-			if (StudentBody.getInstance().authenticate(studentID, password))
+			if (sb.authenticate(studentID, password))
 			{
-				if (StudentBody.getInstance().getStudent(studentID).isAdministrator())
-				{
-					request.getSession().setAttribute("admin", studentID);
-					rd = request.getRequestDispatcher("/admin");
-					rd.forward(request, response);
-				}
-				else
-				{
-					request.getSession().setAttribute("student", studentID);
-					rd = request.getRequestDispatcher("/signin.jsp");
-					rd.forward(request, response);
-				}
+				request.getSession().setAttribute("student", studentID);
+				rd = request.getRequestDispatcher("/signin.jsp");
+				rd.forward(request, response);
 			}
 			else
-				throw new StudentNotRecognizedException("Cannot authenticate");
-			
-		} catch (StudentNotRecognizedException e) {
-			request.setAttribute("error", "There is a problem. Student " + studentID + " cannot be authenticated.");
-			rd = request.getRequestDispatcher("/error.jsp");
-			rd.forward(request, response);		
-		}		
+			{
+				request.setAttribute("error", "Username/Password combination is wrong!");
+				rd = request.getRequestDispatcher("/error.jsp");
+				rd.forward(request, response);
+			}
+					
 			
 	}
 

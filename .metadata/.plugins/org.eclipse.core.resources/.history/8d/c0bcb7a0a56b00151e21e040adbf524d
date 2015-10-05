@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import election.web.model.Candidates;
 import election.web.model.StudentBody;
 import wendall.stephen.exceptions.StudentNotRecognizedException;
 
@@ -52,27 +51,22 @@ public class SignInServlet extends HttpServlet {
 		try {
 			if (StudentBody.getInstance().authenticate(studentID, password))
 			{
-				if (StudentBody.getInstance().getStudent(studentID).isAdministrator())
-				{
-					request.getSession().setAttribute("admin", studentID);
-					rd = request.getRequestDispatcher("/admin");
-					rd.forward(request, response);
-				}
-				else
-				{
-					request.getSession().setAttribute("student", studentID);
-					rd = request.getRequestDispatcher("/signin.jsp");
-					rd.forward(request, response);
-				}
+				request.getSession().setAttribute("student", studentID);
+				rd = request.getRequestDispatcher("/signin.jsp");
+				rd.forward(request, response);
 			}
 			else
-				throw new StudentNotRecognizedException("Cannot authenticate");
-			
+			{
+				request.setAttribute("error", "Username/Password combination is wrong!");
+				rd = request.getRequestDispatcher("/error.jsp");
+				rd.forward(request, response);
+				throw new StudentNotRecognizedException();
+			}
 		} catch (StudentNotRecognizedException e) {
-			request.setAttribute("error", "There is a problem. Student " + studentID + " cannot be authenticated.");
-			rd = request.getRequestDispatcher("/error.jsp");
-			rd.forward(request, response);		
-		}		
+			System.out.println(e.getStackTrace());
+		}
+			
+					
 			
 	}
 

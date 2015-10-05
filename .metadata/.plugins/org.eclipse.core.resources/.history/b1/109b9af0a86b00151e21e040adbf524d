@@ -55,7 +55,7 @@ public class SignInServlet extends HttpServlet {
 				if (StudentBody.getInstance().getStudent(studentID).isAdministrator())
 				{
 					request.getSession().setAttribute("admin", studentID);
-					rd = request.getRequestDispatcher("/admin");
+					rd = request.getRequestDispatcher("/admin.jsp");
 					rd.forward(request, response);
 				}
 				else

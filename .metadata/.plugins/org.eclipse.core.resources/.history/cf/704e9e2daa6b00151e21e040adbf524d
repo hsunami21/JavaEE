@@ -15,23 +15,23 @@
 	</tr>
 	<tr>
 		<td>Aakash Khan</td>
-		<td style="text-align:right">${requestScope.candidate1 }</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Marion Wells</td>
-		<td style="text-align:right">${requestScope.candidate2 }</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Damien Yu</td>
-		<td style="text-align:right">${requestScope.candidate3 }</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td style="text-align:right">Total:</td>
-		<td style="text-align:right">${requestScope.total }</td>
+		<td></td>
 	</tr>
 </table>
 
-<p>The number of votes cast is <span style="font-weight:bold">${requestScope.total }</span>.</p>
+<p>The number of votes cast is <span style="font-weight:bold">XXXXX</span>.</p>
 
 </body>
 </html>
