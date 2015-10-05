@@ -9,7 +9,7 @@
 <body>
 <h1>Please click to vote for one of:</h1>
 
-<form action="" method="post">
+<form action="${pageContext.request.contextPath}/vote" method="post">
 <table>
 	<tr>
 		<td><input type="button" value="Aakash Khan"></td>
