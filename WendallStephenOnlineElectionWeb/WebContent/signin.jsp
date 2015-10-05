@@ -12,9 +12,9 @@
 <form action="${pageContext.request.contextPath}/vote" method="post">
 <table>
 	<tr>
-		<td><input type="button" value="Aakash Khan"></td>
-		<td><input type="button" value="Marion Wells"></td>
-		<td><input type="button" value="Damien Yu"></td>
+		<td><input type="submit" name="Vote" value="Aakash Khan"></td>
+		<td><input type="submit" name="Vote" value="Marion Wells"></td>
+		<td><input type="submit" name="Vote" value="Damien Yu"></td>
 	</tr>
 </table>
 </form>
