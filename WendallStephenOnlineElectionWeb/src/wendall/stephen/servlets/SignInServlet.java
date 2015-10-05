@@ -58,11 +58,9 @@ public class SignInServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		StudentBody sb = StudentBody.getInstance();
-		System.out.println("Do Post Called");
 			String studentID = request.getParameter("studentID").trim();
 			String password = request.getParameter("password").trim();
-			try
-			{
+
 				if (sb.authenticate(studentID, password))
 				{
 					request.getSession().setAttribute("student", studentID);
@@ -70,14 +68,12 @@ public class SignInServlet extends HttpServlet {
 					rd.forward(request, response);
 				}
 				else
-					throw new StudentNotRecognizedException("Student not found");
-			}
-			catch (StudentNotRecognizedException e)
-			{
-				rd = request.getRequestDispatcher("/error.jsp");
-				request.setAttribute("errorcode", e);
-			}
-			
+				{
+					rd = request.getRequestDispatcher("/error.jsp");
+					request.setAttribute("error", "Username/Password combination is wrong!");
+					rd.forward(request, response);
+				}
+					
 			
 	}
 

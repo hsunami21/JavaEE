@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1>Election error</h1>
-<h4></h4>
+<h4>${requestScope.error}</h4>
 </body>
 </html>
