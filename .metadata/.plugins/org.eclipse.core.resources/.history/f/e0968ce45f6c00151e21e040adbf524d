@@ -20,7 +20,9 @@ import wendall.stephen.exceptions.StudentNotRecognizedException;
 @WebServlet("/signin")
 public class SignInServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	private RequestDispatcher rd;
+	//private javax.servlet.RequestDispatcher rd;
+       
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -54,7 +56,7 @@ public class SignInServlet extends HttpServlet {
 				if (StudentBody.getInstance().getStudent(studentID).isAdministrator())
 				{
 					request.getSession().setAttribute("admin", studentID);
-					RequestDispatcher rd = request.getRequestDispatcher("/admin");
+					rd = request.getRequestDispatcher("/admin");
 					rd.forward(request, response);
 				}
 				else
@@ -62,7 +64,7 @@ public class SignInServlet extends HttpServlet {
 					request.getSession().setAttribute("candidates", Candidates.getInstance().getBallotNames());
 					System.out.println(request.getSession().getAttribute("candidates"));
 					request.getSession().setAttribute("student", studentID);
-					RequestDispatcher rd = request.getRequestDispatcher("/signin.jsp");
+					rd = request.getRequestDispatcher("/signin.jsp");
 					rd.forward(request, response);
 				}
 			}
@@ -71,7 +73,7 @@ public class SignInServlet extends HttpServlet {
 			
 		} catch (StudentNotRecognizedException e) {
 			request.setAttribute("error", "There is a problem. Student " + studentID + " cannot be authenticated.");
-			RequestDispatcher rd = request.getRequestDispatcher("/error.jsp");
+			rd = request.getRequestDispatcher("/error.jsp");
 			rd.forward(request, response);		
 		}		
 			

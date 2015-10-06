@@ -3,6 +3,7 @@ package wendall.stephen.servlets;
 import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -42,11 +43,17 @@ public class VoteServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String student = (String) request.getSession().getAttribute("student");
+		ServletContext ctx = this.getServletContext();
+		ctx.getAttribute("voteCount");
 		try {
 			if (!StudentBody.getInstance().getStudent(student).isVoted())
 			{
 				Candidates.getInstance().voteFor(request.getParameter("Vote").toString());
 				StudentBody.getInstance().getStudent(student).setVoted(true);
+				if (ctx.getAttribute("voteCount") == null)
+					ctx.setAttribute("voteCount", 1);
+				else
+					ctx.setAttribute("voteCount", (int)(ctx.getAttribute("voteCount"))+1);
 			}
 			else
 				throw new VotingException("Already Voted");

@@ -22,7 +22,7 @@
 	</c:forEach>
 	<tr>
 		<td style="text-align:right">Total:</td>
-		<td style="text-align:right">${total }</td>
+		<td style="text-align:right">${requestScope.total }</td>
 	</tr>
 </table>
 

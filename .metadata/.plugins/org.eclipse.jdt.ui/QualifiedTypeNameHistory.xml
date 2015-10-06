@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="wendallhsu.asgn1.dto.CourseCatalog"/>
 <fullyQualifiedTypeName name="wendallhsu.asgn1.exceptions.DuplicateCourseException"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -9,7 +8,6 @@
 <fullyQualifiedTypeName name="wendallhsu.asgn1.catalog.CourseCatalog"/>
 <fullyQualifiedTypeName name="wendallhsu.asgn1.dto.Course"/>
 <fullyQualifiedTypeName name="wendallhsu.asgn1.dto.Professor"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
@@ -28,4 +26,11 @@
 <fullyQualifiedTypeName name="wendall.hsu.clock.model.ClockBean"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="wendall.hsu.clock.model.DateTimeFormatException"/>
+<fullyQualifiedTypeName name="wendall.stephen.exceptions.StudentNotRecognizedException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="election.web.model.Candidates"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
 </qualifiedTypeNameHistroy>

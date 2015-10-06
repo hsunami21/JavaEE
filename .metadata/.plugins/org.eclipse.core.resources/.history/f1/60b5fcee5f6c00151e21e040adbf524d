@@ -19,6 +19,7 @@ import election.web.model.Candidates;
 @WebServlet("/admin")
 public class AdminServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private RequestDispatcher rd;
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -56,7 +57,7 @@ public class AdminServlet extends HttpServlet {
 			request.getSession().setAttribute("votes", votes);
 			request.setAttribute("total", total);
 
-			RequestDispatcher rd = request.getRequestDispatcher("/admin.jsp");
+			rd = request.getRequestDispatcher("/admin.jsp");
 			rd.forward(request, response);
 		} catch (Exception e) {
 			System.out.println(e.getStackTrace());

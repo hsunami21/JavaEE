@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
 	<item value="WendallHsuClockEAR" key="LASTEARNAME_"/>
+	<list key="J2EE_IMPORT_null">
+		<item value="C:\Users\Wendall\Dropbox\Semester 5\COMP303\Assignment 2\WendallStephenOnlineElection.war"/>
+	</list>
 	<list key="MRU_RUNTIME_STORE">
 		<item value="WildFly 9.x Runtime"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\Wendall\Dropbox\Semester 5\COMP303\Assignment 2\WendallStephenOnlineElection.war"/>
 	</list>
 </section>
