@@ -50,12 +50,16 @@ public class AdminServlet extends HttpServlet {
 			
 			for (int i = 0; i < candidates.getBallotNames().size() ; i++)
 			{
-				votes.add(candidates.getVotes(candidates.getBallotNames().get(i)));
-				total += candidates.getVotes(candidates.getBallotNames().get(i));
+				votes.add(candidates.getVotes(candidates.getBallotNames().get(i)));	
 			}
 			request.getSession().setAttribute("candidates", candidates.getBallotNames());
 			request.getSession().setAttribute("votes", votes);
-			request.setAttribute("total", total);
+			
+			for (int i = 0; i < votes.size(); i++)
+			{
+				total += candidates.getVotes(candidates.getBallotNames().get(i));
+			}
+			request.getSession().setAttribute("total", total);
 
 			rd = request.getRequestDispatcher("/admin.jsp");
 			rd.forward(request, response);

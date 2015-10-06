@@ -55,7 +55,7 @@ public class AdminServlet extends HttpServlet {
 			}
 			request.getSession().setAttribute("candidates", candidates.getBallotNames());
 			request.getSession().setAttribute("votes", votes);
-			request.setAttribute("total", total);
+			request.getSession().setAttribute("total", total);
 
 			rd = request.getRequestDispatcher("/admin.jsp");
 			rd.forward(request, response);
