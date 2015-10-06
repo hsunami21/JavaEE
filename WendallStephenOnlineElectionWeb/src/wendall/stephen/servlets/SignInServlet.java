@@ -1,6 +1,7 @@
 package wendall.stephen.servlets;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -60,6 +61,8 @@ public class SignInServlet extends HttpServlet {
 				}
 				else
 				{
+					request.getSession().setAttribute("candidates", Candidates.getInstance().getBallotNames());
+					System.out.println(request.getSession().getAttribute("candidates"));
 					request.getSession().setAttribute("student", studentID);
 					rd = request.getRequestDispatcher("/signin.jsp");
 					rd.forward(request, response);
