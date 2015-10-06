@@ -53,7 +53,7 @@ public class AdminServlet extends HttpServlet {
 				votes.add(candidates.getVotes(candidates.getBallotNames().get(i)));
 				total += candidates.getVotes(candidates.getBallotNames().get(i));
 			}
-			request.getSession().setAttribute("candidates", candidates.getBallotNames());
+			request.getSession().setAttribute("candidate", candidates.getBallotNames());
 			request.setAttribute("votes", votes);
 			request.setAttribute("total", total);
 

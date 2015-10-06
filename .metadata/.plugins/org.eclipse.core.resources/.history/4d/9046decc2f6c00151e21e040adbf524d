@@ -17,7 +17,7 @@
 	<c:forEach var="names" items="${candidates}" varStatus="status">
 	  <tr>
 	      <td>${names}</td>
-	      <td style="text-align:right">${votes[status.index]}</td>
+	      <td>${votes[status.index]}</td>
 	  </tr>
 	</c:forEach>
 	<tr>

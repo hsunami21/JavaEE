@@ -14,11 +14,16 @@
 		<td>Candidate</td>
 		<td>Votes</td>
 	</tr>
-	<c:forEach var="names" items="${candidates}" varStatus="status">
-	  <tr>
-	      <td>${names}</td>
-	      <td style="text-align:right">${votes[status.index]}</td>
-	  </tr>
+	<c:forEach items="${candidatenames }" var="name" >
+		
+			<tr>
+				<td>${name }</td>
+				<c:forEach items="${votes }" var="vote" >
+				<td>${vote }</td>
+				</c:forEach>
+				
+			</tr>
+	
 	</c:forEach>
 	<tr>
 		<td style="text-align:right">Total:</td>

@@ -14,13 +14,15 @@
 		<td>Candidate</td>
 		<td>Votes</td>
 	</tr>
-	<c:forEach var="names" items="${candidates}" varStatus="status">
-	  <tr>
-	      <td>${names}</td>
-	      <td style="text-align:right">${votes[status.index]}</td>
-	  </tr>
-	</c:forEach>
 	<tr>
+		<c:forEach items="${candidates }" var="name" >
+			<c:forEach items="${votes }" var="vote" >
+				<tr>
+					<td>${name}</td>
+					<td>${vote}</td>
+				</tr>
+			</c:forEach>
+		</c:forEach>
 		<td style="text-align:right">Total:</td>
 		<td style="text-align:right">${requestScope.total }</td>
 	</tr>
