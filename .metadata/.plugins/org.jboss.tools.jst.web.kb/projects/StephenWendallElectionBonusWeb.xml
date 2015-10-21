@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <el>
+   <linked-el length="22" name="%0" offset="645" path="%1"/>
+   <linked-el length="21" name="%2" offset="370" path="%3"/>
+   <linked-el length="42" name="%4" offset="466" path="%5"/>
+   <linked-el length="44" name="%4" offset="530" path="%6"/>
+   <linked-el length="48" name="%4" offset="406" path="%3"/>
+   <linked-el length="42" name="%7" offset="466" path="%5"/>
+   <linked-el length="44" name="%7" offset="530" path="%6"/>
+   <linked-el length="48" name="%7" offset="406" path="%3"/>
+   <linked-el length="16" name="%8" offset="537" path="%1"/>
+   <linked-el length="17" name="%8" offset="557" path="%5"/>
+   <linked-el length="9" name="%9" offset="781" path="%1"/>
+   <linked-el length="8" name="%10" offset="594" path="%1"/>
+   <linked-el length="21" name="%11" offset="370" path="%3"/>
+   <linked-el length="9" name="%12" offset="632" path="%5"/>
+   <linked-el length="22" name="%13" offset="645" path="%1"/>
+   <linked-el length="13" name="%14" offset="879" path="%1"/>
+   <linked-el length="42" name="%15" offset="466" path="%5"/>
+   <linked-el length="44" name="%15" offset="530" path="%6"/>
+   <linked-el length="48" name="%15" offset="406" path="%3"/>
+   <linked-el length="22" name="%16" offset="645" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="status.index" value="%0"/>
+  <alias path="/StephenWendallElectionBonusWeb/WebContent/admin.jsp" value="%1"/>
+  <alias path="/StephenWendallElectionBonusWeb/WebContent/error.jsp" value="%3"/>
+  <alias path="/StephenWendallElectionBonusWeb/WebContent/signin.jsp" value="%5"/>
+  <alias path="requestScope.error" value="%2"/>
+  <alias path="pageContext.request" value="%4"/>
+  <alias path="pageContext" value="%7"/>
+  <alias path="candidates" value="%8"/>
+  <alias path="total" value="%9"/>
+  <alias path="names" value="%10"/>
+  <alias path="requestScope" value="%11"/>
+  <alias path="name" value="%12"/>
+  <alias path="votes" value="%13"/>
+  <alias path="voteCount" value="%14"/>
+  <alias path="/StephenWendallElectionBonusWeb/WebContent/welcome.jsp" value="%6"/>
+  <alias path="pageContext.request.contextPath" value="%15"/>
+  <alias path="status" value="%16"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

@@ -116,25 +116,22 @@
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.11.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
-  <core validator-id="batch-verification"/>
   <el>
-   <linked-el length="43" name="%0" offset="469" path="%1"/>
-   <linked-el length="43" name="%0" offset="403" path="%2"/>
-   <linked-el length="20" name="%3" offset="381" path="%1"/>
-   <linked-el length="20" name="%4" offset="381" path="%1"/>
-   <linked-el length="43" name="%5" offset="469" path="%1"/>
-   <linked-el length="43" name="%5" offset="403" path="%2"/>
-   <linked-el length="43" name="%6" offset="469" path="%1"/>
-   <linked-el length="43" name="%6" offset="403" path="%2"/>
+   <linked-el length="43" name="%0" offset="403" path="%1"/>
+   <linked-el length="43" name="%0" offset="473" path="%2"/>
+   <linked-el length="20" name="%3" offset="385" path="%2"/>
+   <linked-el length="20" name="%4" offset="385" path="%2"/>
+   <linked-el length="43" name="%5" offset="403" path="%1"/>
+   <linked-el length="43" name="%5" offset="473" path="%2"/>
+   <linked-el length="43" name="%6" offset="403" path="%1"/>
+   <linked-el length="43" name="%6" offset="473" path="%2"/>
   </el>
  </validation>
  <aliases>
   <alias path="pageContext" value="%0"/>
-  <alias path="/WendallHsuClockWeb/WebContent/clock.jsp" value="%1"/>
+  <alias path="/WendallHsuClockWeb/WebContent/wendall.jsp" value="%1"/>
+  <alias path="/WendallHsuClockWeb/WebContent/clock.jsp" value="%2"/>
   <alias path="requestScope.time" value="%3"/>
-  <alias path="/WendallHsuClockWeb/WebContent/index.jsp" value="%2"/>
   <alias path="requestScope" value="%4"/>
   <alias path="pageContext.request" value="%5"/>
   <alias path="pageContext.request.contextPath" value="%6"/>

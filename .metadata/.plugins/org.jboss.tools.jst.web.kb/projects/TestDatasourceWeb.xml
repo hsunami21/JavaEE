@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <el>
+   <linked-el length="44" name="%0" offset="362" path="%1"/>
+   <linked-el length="23" name="%2" offset="359" path="%3"/>
+   <linked-el length="23" name="%4" offset="359" path="%3"/>
+   <linked-el length="44" name="%5" offset="362" path="%1"/>
+   <linked-el length="44" name="%6" offset="362" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="pageContext" value="%0"/>
+  <alias path="requestScope" value="%2"/>
+  <alias path="requestScope.message" value="%4"/>
+  <alias path="pageContext.request" value="%5"/>
+  <alias path="/TestDatasourceWeb/WebContent/index.jsp" value="%1"/>
+  <alias path="/TestDatasourceWeb/WebContent/results.jsp" value="%3"/>
+  <alias path="pageContext.request.contextPath" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>
