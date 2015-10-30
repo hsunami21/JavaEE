@@ -1,17 +1,20 @@
 package wendall.stephen.servlets;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import election.database.connection.DbConnect;
 import election.web.model.Candidates;
 import election.web.model.StudentBody;
+import wendall.stephen.exceptions.DataSourceConnectException;
+import wendall.stephen.exceptions.DataSourceNameException;
 import wendall.stephen.exceptions.VotingException;
 
 /**
@@ -43,25 +46,23 @@ public class VoteServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String student = (String) request.getSession().getAttribute("student");
-		ServletContext ctx = this.getServletContext();
-		ctx.getAttribute("voteCount");
 		try {
-			if (!StudentBody.getInstance().getStudent(student).isVoted())
-			{
-				Candidates.getInstance().voteFor(request.getParameter("Vote").toString());
-				StudentBody.getInstance().getStudent(student).setVoted(true);
-				if (ctx.getAttribute("voteCount") == null)
-					ctx.setAttribute("voteCount", 1);
+				//System.out.println(request.getParameter("Vote").toString());
+				if (!(boolean)request.getSession().getAttribute("voted"))
+				{
+					if (DbConnect.voteFor(student, request.getParameter("Vote").toString()))
+					{
+						request.getSession().setAttribute("voted", true);
+						RequestDispatcher rd = request.getRequestDispatcher("/vote.jsp");
+						rd.forward(request, response);
+					}
+				}
 				else
-					ctx.setAttribute("voteCount", (int)(ctx.getAttribute("voteCount"))+1);
-			}
-			else
-				throw new VotingException("Already Voted");
+					throw new VotingException("Already Voted");
+				//Candidates.getInstance().voteFor(request.getParameter("Vote").toString());
+				//StudentBody.getInstance().getStudent(student).setVoted(true
 			
-			RequestDispatcher rd = request.getRequestDispatcher("/vote.jsp");
-			rd.forward(request, response);
-			
-		} catch (VotingException e) {
+		} catch (VotingException | DataSourceNameException | DataSourceConnectException | SQLException e) {
 			request.setAttribute("error", "There is a problem. You cannot vote twice.");
 			
 			RequestDispatcher rd = request.getRequestDispatcher("/error.jsp");

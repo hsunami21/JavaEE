@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,19 +13,25 @@
 		<td>Candidate</td>
 		<td>Votes</td>
 	</tr>
-	<c:forEach var="names" items="${candidates}" varStatus="status">
-	  <tr>
-	      <td>${names}</td>
-	      <td style="text-align:right">${votes[status.index]}</td>
-	  </tr>
-	</c:forEach>
+	<tr>
+		<td>Aakash Khan</td>
+		<td style="text-align:right">${requestScope.candidate1 }</td>
+	</tr>
+	<tr>
+		<td>Marion Wells</td>
+		<td style="text-align:right">${requestScope.candidate2 }</td>
+	</tr>
+	<tr>
+		<td>Damien Yu</td>
+		<td style="text-align:right">${requestScope.candidate3 }</td>
+	</tr>
 	<tr>
 		<td style="text-align:right">Total:</td>
-		<td style="text-align:right">${total }</td>
+		<td style="text-align:right">${requestScope.total }</td>
 	</tr>
 </table>
 
-<p>The number of votes cast is <span style="font-weight:bold">${voteCount }</span>.</p>
+<p>The number of votes cast is <span style="font-weight:bold">${requestScope.total }</span>.</p>
 
 </body>
 </html>

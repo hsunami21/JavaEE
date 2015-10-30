@@ -8,6 +8,13 @@ public class Student {
 	boolean hasVoted;
 	boolean administrator;
 	
+	public Student(String id, String password, boolean voted ) throws StudentNotRecognizedException {
+		setStudentId( id );
+		setPassword( password );
+		setVoted( voted );
+		this.administrator = id.equals("3000");
+	}
+	
 	public Student(String id, String password ) throws StudentNotRecognizedException {
 		setStudentId( id );
 		setPassword( password );

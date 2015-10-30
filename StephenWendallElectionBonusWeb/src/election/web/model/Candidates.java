@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import election.database.connection.DbConnect;
 import wendall.stephen.exceptions.VotingException;
 
 public class Candidates {
@@ -14,9 +15,11 @@ public class Candidates {
 
 	private Candidates() {
 		vodeCount = new HashMap<String, Integer>();
-		vodeCount.put( "Aakash Khan", 0 );
-		vodeCount.put( "Marion Wells", 0 );
-		vodeCount.put( "Damien Yu", 0 );
+		try {
+			vodeCount = DbConnect.getCandidates();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
 	}
 
 	public static synchronized Candidates getInstance() {
@@ -38,6 +41,7 @@ public class Candidates {
 	}
 	
 	public void voteFor( String name ) throws VotingException {
+		
 		int votes = getVotes( name ) + 1;
 		vodeCount.put( name , votes );		
 	}
