@@ -1,0 +1,155 @@
+package college.courses.servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import college.courses.exceptions.InvalidDataException;
+import college.courses.model.CatalogManager;
+
+@WebServlet("/update")
+public class UpdateCourseServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public UpdateCourseServlet() {
+		super();
+	}
+
+	// process delete course in doGet - works because delete needs no form data
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// make sure user has logged in 
+		HttpSession session = request.getSession();
+		if (session.getAttribute("userName") == null ) {
+			request.getRequestDispatcher("/login.jsp").forward(request, response);
+			return;
+		}
+		// make sure user has selected a course 
+		 if (session.getAttribute("course") == null ) {
+			request.getRequestDispatcher("/main.jsp").forward(request, response);
+			return;
+		}
+		// current course is stored in HttpSession by MainServlet
+		Course course = (Course) session.getAttribute("course");
+		try {
+			CatalogManager cm = new CatalogManager();
+			System.out.println("Deleting " + course);
+			cm.deleteCourse(course.getCourseCode());
+			cm.release();
+			session.setAttribute("course", null);
+			Integer cc = (Integer) getServletContext().getAttribute("courseCount");
+			getServletContext().setAttribute("courseCount", cc - 1);
+			request.getRequestDispatcher("/main.jsp").forward(request, response);
+			return;
+		} catch (Exception e) {
+			request.setAttribute("message", e.getMessage());
+			e.printStackTrace(System.out);
+			request.getRequestDispatcher("/error.jsp").forward(request, response);
+			return;
+		}
+	}
+
+	// process update course
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// make sure user is logged in
+		HttpSession session = request.getSession();
+		if (session.getAttribute("userName") == null) {
+			request.getRequestDispatcher("/login.jsp").forward(request, response);
+			return;
+		}
+		// do nothing if user clicked cancel
+		String command = request.getParameter("submit");
+		if (command.equals("Cancel")) {
+			request.getRequestDispatcher("/main.jsp").forward(request, response);
+			return;
+		}
+		// make sure user has selected a course 
+		 if (session.getAttribute("course") == null ) {
+			request.getRequestDispatcher("/main.jsp").forward(request, response);
+			return;
+		}
+		// current course is stored in HttpSession by MainServlet
+		Course course = (Course) session.getAttribute("course");
+		try {
+			CatalogManager cm = new CatalogManager();
+			// process form data
+			String courseTitle = request.getParameter("courseTitle");
+			if (courseTitle != null) {
+				course.setCourseTitle(courseTitle.trim());
+			}
+			int capacity = 0;
+			int enrolled = 0;
+			String input = request.getParameter("capacity");
+			if (input != null) {
+				// may throw NumberFormatException
+				capacity = Integer.parseInt(input.trim());
+			}
+			course.setCapacity(capacity);
+			course.setEnrolled(enrolled);
+			// on update a new professor may be created
+			Professor professor = null;
+			String profName = request.getParameter("profName").trim();
+			// use professor name typed in to create or get professor by name
+			// if no professor name entered use professor select from drop down list
+			if (profName.isEmpty()) {
+				professor = getProfFromList(request.getParameter("profId"));
+			} else {
+				professor = getProfFromName(profName);
+			}
+			course.setProfessor(professor);
+			System.out.println("Updating " + course);
+			cm.updateCourse(course);
+			getServletContext().setAttribute("professors", cm.getProfessorList());
+			cm.release();
+			session.setAttribute("course", null);
+			request.getRequestDispatcher("/main.jsp").forward(request, response);
+			return;
+		} catch (Exception e) {
+			request.setAttribute("message", e.getMessage());
+			e.printStackTrace(System.out);
+			request.getRequestDispatcher("/error.jsp").forward(request, response);
+			return;
+		}
+	}
+
+	private Professor getProfFromName(String profName) throws InvalidDataException {
+		// professor name entered in entry field
+		String firstName = "";
+		String lastName = "";
+		int space = profName.indexOf(' ');
+		{
+			firstName = profName.substring(0, space);
+		}
+		if (space < profName.length()) {
+			lastName = profName.substring(space).trim();
+		}
+		for (Professor prof : (List<Professor>) getServletContext().getAttribute("professors")) {
+			if (prof.getFirstName().equals(firstName) && prof.getLastName().equals(lastName)) {
+				return prof;
+			}
+		}
+		return new Professor(firstName, lastName);
+	}
+
+	private Professor getProfFromList(String profName) {
+		// professor name selected from the drop down list
+		if (profName.equals("TBA")) {
+			return null;
+		}
+		int pid = Integer.parseInt(profName);
+		for (Professor prof : (List<Professor>) getServletContext().getAttribute("professors")) {
+			if (pid == prof.getProfId()) {
+				return prof;
+			}
+		}
+		// should never reach the next line
+		return null;
+	}
+}
