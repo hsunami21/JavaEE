@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.util.Calendar;
 import java.util.Date;
 
+import javax.ejb.EJB;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -28,9 +29,12 @@ public class LoginServlet extends HttpServlet {
 	public void init() throws ServletException {
 		try {
 			CatalogManager cm = new CatalogManager();
+			System.out.println("INITIATING LOG IN");
 			int courseCount = cm.countCourses();
 			getServletContext().setAttribute("courseCount", courseCount);
+			System.out.println("COURSE COUNT QUERY WORKS");
 			getServletContext().setAttribute("professors", cm.getProfessorList() );
+			System.out.println("PROFESSOR QUERY WORKS");
 			Date lastUpdated = Calendar.getInstance().getTime();
 			getServletContext().setAttribute("lastUpdated", lastUpdated);
 //			cm.release();
@@ -42,9 +46,9 @@ public class LoginServlet extends HttpServlet {
 	// used for sign out only
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		request.getSession().invalidate();
-		RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
-		rd.forward(request, response);
+//		request.getSession().invalidate();
+//		RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
+//		rd.forward(request, response);
 	}
 
     // process sign in from data on login.jsp

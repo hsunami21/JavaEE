@@ -6142,3 +6142,765 @@ Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Cou
 !MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
 !SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-04 16:36:09.373
 !MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
+!SESSION 2015-11-06 12:50:46.656 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-06 12:51:31.940
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wendall'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-06 13:11:05.789 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-11-06 13:11:08.600
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-06 13:12:01.277
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wendall'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 15:10:02.949
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.949
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
+
+!ENTRY org.eclipse.recommenders.rcp 2 15 2015-11-06 15:26:50.508
+!MESSAGE Failed to parse news feed
+!STACK 0
+java.net.UnknownHostException: www.codetrails.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2015-11-06 15:47:04.497
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.correction.ASTResolving.getPossibleReferenceBinding(ASTResolving.java:272)
+	at org.eclipse.jdt.internal.ui.text.correction.ASTResolving.guessBindingForReference(ASTResolving.java:108)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarVariableProposals(UnresolvedElementsSubProcessor.java:454)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getVariableProposals(UnresolvedElementsSubProcessor.java:290)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:361)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:316)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:378)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:339)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:335)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:468)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:225)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:199)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:285)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:186)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1181)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1150)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:902)
+	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:243)
+	at org.eclipse.jface.text.TextViewerHoverManager$5.run(TextViewerHoverManager.java:233)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 16:41:11.433
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.433
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:18:47.206
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.206
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:22:00.615
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.615
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298249 2015-11-06 17:22:05.581
+!MESSAGE Error renaming C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\tmp\tmp1651991994680756625.class to C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses\exceptions\CourseNotFoundException.class. 
+
+This may be caused by incorrect file permissions, or your server's temporary deploy directory may be on a different filesystem than the final destination.
+
+You may adjust these settings in the server editor.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-06 17:22:30.476
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersFromServer(AS7DeploymentScannerUtility.java:198)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadScannersFromServer(LocalJBoss7DeploymentScannerAdditions.java:144)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:57)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-06 17:22:30.499
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:108)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 10 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-06 17:22:30.758
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDefaultDeploymentScanner(AS7DeploymentScannerUtility.java:212)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadDefaultScannerFromServer(LocalJBoss7DeploymentScannerAdditions.java:148)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:58)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:39:24.081
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:51:59.857
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.857
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 18:03:58.353
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 18:21:53.143
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.145
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.145
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.145
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.145
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 23:59:03.951
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.951
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SESSION 2015-11-07 00:00:23.726 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-07 00:01:07.269
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wendall'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 00:33:54.664
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:108)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 10 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 00:33:54.677
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersFromServer(AS7DeploymentScannerUtility.java:198)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadScannersFromServer(LocalJBoss7DeploymentScannerAdditions.java:144)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:57)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 00:33:54.911
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDefaultDeploymentScanner(AS7DeploymentScannerUtility.java:212)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadDefaultScannerFromServer(LocalJBoss7DeploymentScannerAdditions.java:148)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:58)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-07 00:40:01.408
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.408
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298249 2015-11-07 00:40:04.915
+!MESSAGE Error renaming C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\tmp\tmp4067480485927608380.class to C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses\exceptions\CourseNotFoundException.class. 
+
+This may be caused by incorrect file permissions, or your server's temporary deploy directory may be on a different filesystem than the final destination.
+
+You may adjust these settings in the server editor.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-07 00:40:28.264
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:09:53.466
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersFromServer(AS7DeploymentScannerUtility.java:198)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadScannersFromServer(LocalJBoss7DeploymentScannerAdditions.java:144)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:57)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:09:53.469
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:108)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 10 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:09:53.779
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDefaultDeploymentScanner(AS7DeploymentScannerUtility.java:212)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadDefaultScannerFromServer(LocalJBoss7DeploymentScannerAdditions.java:148)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:58)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:10:43.459
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:108)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 10 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:10:43.500
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersFromServer(AS7DeploymentScannerUtility.java:198)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadScannersFromServer(LocalJBoss7DeploymentScannerAdditions.java:144)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:57)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:10:43.852
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDefaultDeploymentScanner(AS7DeploymentScannerUtility.java:212)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadDefaultScannerFromServer(LocalJBoss7DeploymentScannerAdditions.java:148)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:58)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:36:19.868
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:108)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 10 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:36:19.876
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersFromServer(AS7DeploymentScannerUtility.java:198)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadScannersFromServer(LocalJBoss7DeploymentScannerAdditions.java:144)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:57)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-11-07 01:36:20.120
+!MESSAGE Unable to retrieve a list of remote deployment scanners
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:361)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:171)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:236)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:234)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:122)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDefaultDeploymentScanner(AS7DeploymentScannerUtility.java:212)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.loadDefaultScannerFromServer(LocalJBoss7DeploymentScannerAdditions.java:148)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:58)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:61)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:352)
+	... 13 more

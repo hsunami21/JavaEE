@@ -1,27 +1,31 @@
 package wendall.stephen.asgn3.data;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.validation.constraints.NotNull;
 
 import college.courses.exceptions.InvalidDataException;
 
 @Entity
 @Table (name="PROFESSOR", schema="COLLEGE")
+@NamedQueries ({
+	@NamedQuery (name="getAllProfs", query="SELECT p FROM Professor p"),
+	@NamedQuery (name="getProf", query="SELECT p FROM Professor p WHERE p.profId = :profId ")
+})
 public class Professor {
-	@NotNull
 	private String firstName = null;
-	@NotNull
 	private String lastName = null;
-	@Id
-	@OneToMany (mappedBy="professor", fetch=FetchType.LAZY, cascade=CascadeType.REMOVE)
-	@JoinColumn (name="PROF_ID")
 	private int profId =0 ;
+	private Set<Course> courseCollection = new HashSet<Course>(0);
 	
 	public Professor() throws InvalidDataException {}
 	
@@ -39,6 +43,12 @@ public class Professor {
 		this(firstName, lastName);
 		setProfId(profId);
 	}
+	
+	public Professor( int profId, String firstName, String lastName, Set<Course> courseCollection)
+			throws InvalidDataException {
+		this(profId, firstName, lastName);
+		this.courseCollection = courseCollection;
+	}
 
 	public void setProfId( int profId) throws InvalidDataException {
 		if ( profId < 1000 || profId > 1999) {
@@ -47,9 +57,13 @@ public class Professor {
 		this.profId = profId;
 	}
 	
+	@Id
+	@Column (name="PROFID", nullable=false)
 	public int getProfId () {
 		return profId;
 	}
+	
+	@Column (name="GIVENNAME", nullable=false)
 	public String getFirstName() {
 		return firstName;
 	}
@@ -60,6 +74,8 @@ public class Professor {
 		}
 		this.firstName = firstName;
 	}
+	
+	@Column (name="FAMILYNAME", nullable=false)
 	public String getLastName() {
 		return lastName;
 	}
@@ -86,5 +102,14 @@ public class Professor {
 		}
 		// 2 profs with same name if profId not yet set for either of them
 		return ( getProfId() == 0 || p.getProfId() == 0 ) ;
+	}
+
+	@OneToMany (mappedBy="professor", fetch=FetchType.LAZY, cascade=CascadeType.REMOVE)
+	public Set<Course> getCourseCollection() {
+		return courseCollection;
+	}
+	
+	public void setCourseCollection(Set<Course> courseCollection) {
+		this.courseCollection = courseCollection;
 	}
 }

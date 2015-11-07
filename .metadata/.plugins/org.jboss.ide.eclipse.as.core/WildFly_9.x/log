@@ -1506,3 +1506,313 @@
 !MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
 !SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-04 16:36:09.372
 !MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-06 14:36:16.825
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-06 14:36:29.075
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 15:10:02.947
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.947
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.947
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.947
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.948
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.948
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.948
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 15:10:02.948
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\TestDataSource.ear\TestDatasourceWeb.war\WEB-INF\classes\simple\db. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 16:41:11.421
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 16:41:11.421
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:18:47.205
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:18:47.205
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:22:00.614
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:22:00.614
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-06 17:22:18.059
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-06 17:22:19.385
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-06 17:22:21.019
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-06 17:22:29.057
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:39:24.081
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:39:24.081
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 17:51:59.856
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 17:51:59.856
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 18:03:58.353
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:03:58.353
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 18:21:53.143
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 18:21:53.143
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-06 23:59:03.921
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+!SUBENTRY 8 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-06 23:59:03.921
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\wendall\stephen\asgn3. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-06 23:59:23.381
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2015-11-06 23:59:29.855
+!MESSAGE Server Shutdown Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-07 00:01:32.096
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-07 00:01:39.206
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-07 00:33:46.232
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-07 00:33:46.581
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-07 00:33:47.727
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-07 00:33:53.678
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-07 00:40:01.407
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:01.407
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes\college\courses. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-07 00:40:28.263
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-07 00:40:28.264
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenAsgn3EAR.ear\WendallStephenAsgn3Web.war\WEB-INF\classes. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-07 00:40:33.931
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-07 00:40:34.122
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-07 00:40:37.870
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-07 00:40:43.763
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-07 01:09:45.605
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-07 01:09:45.778
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-07 01:09:46.880
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-07 01:09:53.093
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-07 01:09:56.890
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-07 01:10:37.032
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-07 01:10:42.385
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-07 01:36:11.487
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-07 01:36:11.837
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-07 01:36:12.947
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-07 01:36:18.715
+!MESSAGE Server Startup Succeeded

@@ -84,6 +84,7 @@ public class AddCourseServlet extends HttpServlet {
 			return null;
 		}
 		int pid = Integer.parseInt(profName);
+		System.out.println("PROF ID = " + pid);
 		for (Professor prof : (List<Professor>) getServletContext().getAttribute("professors")) {
 			if (pid == prof.getProfId()) {
 				return prof;
