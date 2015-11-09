@@ -37,7 +37,6 @@ public class LoginServlet extends HttpServlet {
 			System.out.println("PROFESSOR QUERY WORKS");
 			Date lastUpdated = Calendar.getInstance().getTime();
 			getServletContext().setAttribute("lastUpdated", lastUpdated);
-//			cm.release();
 		} catch (InvalidDataException e) {
 			e.printStackTrace();
 		}
@@ -46,9 +45,9 @@ public class LoginServlet extends HttpServlet {
 	// used for sign out only
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-//		request.getSession().invalidate();
-//		RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
-//		rd.forward(request, response);
+		request.getSession().invalidate();
+		RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
+		rd.forward(request, response);
 	}
 
     // process sign in from data on login.jsp

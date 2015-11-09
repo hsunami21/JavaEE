@@ -18,8 +18,7 @@ import college.courses.exceptions.InvalidDataException;
 @Entity
 @Table (name="PROFESSOR", schema="COLLEGE")
 @NamedQueries ({
-	@NamedQuery (name="getAllProfs", query="SELECT p FROM Professor p"),
-	@NamedQuery (name="getProf", query="SELECT p FROM Professor p WHERE p.profId = :profId ")
+	@NamedQuery (name="getAllProfs", query="SELECT p FROM Professor p")
 })
 public class Professor {
 	private String firstName = null;

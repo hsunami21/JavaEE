@@ -43,7 +43,7 @@ public class UpdateCourseServlet extends HttpServlet {
 			CatalogManager cm = new CatalogManager();
 			System.out.println("Deleting " + course);
 			cm.deleteCourse(course.getCourseCode());
-//			cm.release();
+			System.out.println("DELETE COURSE WORKS");
 			session.setAttribute("course", null);
 			Integer cc = (Integer) getServletContext().getAttribute("courseCount");
 			getServletContext().setAttribute("courseCount", cc - 1);
@@ -108,8 +108,8 @@ public class UpdateCourseServlet extends HttpServlet {
 			course.setProfessor(professor);
 			System.out.println("Updating " + course);
 			cm.updateCourse(course);
+			System.out.println("UPDATE COURSE WORKS");
 			getServletContext().setAttribute("professors", cm.getProfessorList());
-//			cm.release();
 			session.setAttribute("course", null);
 			request.getRequestDispatcher("/main.jsp").forward(request, response);
 			return;
@@ -136,8 +136,15 @@ public class UpdateCourseServlet extends HttpServlet {
 			if (prof.getFirstName().equals(firstName) && prof.getLastName().equals(lastName)) {
 				return prof;
 			}
+			
 		}
-		return new Professor(firstName, lastName);
+		
+		Professor p = new Professor(firstName, lastName);
+		p.setProfId(getProfId());
+		CatalogManager cm = new CatalogManager();
+		cm.addProfessor(p);
+		
+		return p;
 	}
 
 	private Professor getProfFromList(String profName) {
@@ -154,4 +161,15 @@ public class UpdateCourseServlet extends HttpServlet {
 		// should never reach the next line
 		return null;
 	}
+	
+	private int getProfId() {
+		int max = 0;
+		for (Professor prof : (List<Professor>)getServletContext().getAttribute("professors")) {
+			if (prof.getProfId() > max)
+				max = prof.getProfId();
+		}
+		
+		System.out.println("GETPROFID(): " + (max+1));
+		return max + 1;
+	 }
 }

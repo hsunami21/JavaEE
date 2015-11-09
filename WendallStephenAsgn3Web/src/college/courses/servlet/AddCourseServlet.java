@@ -63,7 +63,7 @@ public class AddCourseServlet extends HttpServlet {
 			course.setProfessor(getProfFromList(request.getParameter("profName")));
 			System.out.println("Adding " + course);
 			cm.addCourse(course);
-//			cm.release();
+			System.out.println("ADD COURSE WORKS");
 			session.setAttribute("course", null);
 			Integer cc = (Integer) getServletContext().getAttribute("courseCount");
 			getServletContext().setAttribute("courseCount", cc + 1);

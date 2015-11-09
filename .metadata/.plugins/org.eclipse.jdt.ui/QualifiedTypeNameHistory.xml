@@ -58,6 +58,6 @@
 <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
 <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="college.courses.exceptions.InvalidDataException"/>
 <fullyQualifiedTypeName name="college.courses.exceptions.CourseNotFoundException"/>
+<fullyQualifiedTypeName name="college.courses.exceptions.InvalidDataException"/>
 </qualifiedTypeNameHistroy>

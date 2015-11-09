@@ -2,13 +2,8 @@ package wendall.stephen.asgn3.data;
 
 import java.io.Serializable;
 
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -33,21 +28,6 @@ public class Course implements Serializable {
 	private int capacity = 0;
 	private int enrolled = 0;
 	private Professor professor = null;
-
-//	// TAKEN FROM SLIDE 16 FROM WEEK 8
-//	// need only one entity manager factory 
-//	private static EntityManagerFactory emf = null; 
-//	public Course() { 
-//		if ( emf == null ) { 
-//			InitialContext ctx; 
-//			try { 
-//				ctx = new InitialContext(); 
-//				emf = (EntityManagerFactory) ctx.lookup("java:/CollegeEMF"); 
-//			} catch (NamingException ne) { 
-//				ne.printStackTrace(); 
-//			} 
-//		}
-//	}
 
 	public Course() {}
 	
@@ -160,20 +140,4 @@ public class Course implements Serializable {
 		return getProfessor().equals( c.getProfessor() );
 	}
 	
-//	// TAKEN FROM SLIDE 17 OF WEEK 8
-//	public void updateProfessor (Professor p) throws InvalidDataException { 
-//		EntityManager em = emf.createEntityManager(); 
-//		Professor professor = em.find(Professor.class, p.getProfId()); 
-//		if (professor == null) { 
-//			throw new InvalidDataException( "No Professor with id " + p.getProfId()); 
-//		} 
-//		EntityTransaction et = em.getTransaction(); 
-//		et.begin(); 
-//		professor.setFirstName( p.getFirstName()); 
-//		professor.setLastName( p.getLastName()); 
-//		em.merge(professor); 
-//		et.commit(); 
-//		em.close(); 
-//	}
-
 }

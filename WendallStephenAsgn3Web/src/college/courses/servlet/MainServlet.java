@@ -47,8 +47,7 @@ public class MainServlet extends HttpServlet {
 				CatalogManager cm = new CatalogManager();
 				System.out.println("INITIATING GET COURSE");
 				Course course = cm.getCourse(code.trim().toUpperCase());
-				System.out.println("GET COURSE QUERIES WORK");
-//				cm.release();
+				System.out.println("GET COURSE QUERY WORKS");
 				session.setAttribute("course", course);
 				request.getRequestDispatcher("/displayCourse.jsp").forward(request, response);
 				return;
