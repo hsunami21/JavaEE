@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>Student Election Ballot Form</h:head> 
+<body> 
+<h3>Please click to vote for one of:</h3>
+<h:form id="ballot">
+<h:dataTable value="#{ballotBean.candidateNames}" var="cName"> 
+<h:column>
+<h:commandButton id="vote" value="#{cName}" 
+                 actionListener="#{ ballotBean.vote(cName) }" 
+                action="#{ ballotBean.getNextPage() }" />
+</h:column>
+</h:dataTable>
+</h:form>
+</body> 
+</html>

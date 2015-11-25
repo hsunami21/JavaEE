@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+	<title>Main - Guessing Game</title>
+</h:head> 
+<body> 
+<h:form>
+<h1>Guess number: <h:outputText value="#{WendallStephenGameBean.count}" /></h1>
+<p>Is your number <h:outputText value="#{WendallStephenGameBean.guess}"/>?</p>
+<h:commandButton id="correct" value="Correct" action="gameover" />
+&nbsp;
+<h:commandButton id="low" value="Too Low" actionListener="#{WendallStephenGameBean.tooLow()}" action="getNextPage()" />
+&nbsp;
+<h:commandButton id="high" value="Too High" actionListener="#{WendallStephenGameBean.tooHigh()}" action="getNextPage()" />
+</h:form>
+</body>
+</html>
+

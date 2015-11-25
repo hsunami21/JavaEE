@@ -39,28 +39,28 @@ public class MainServlet extends HttpServlet {
 		try {
 			switch (command) {
 			// User request: get course by course code
-			case "Get": {
-				String code = request.getParameter("courseCode");
-				if (code == null || code.isEmpty()) {
-					throw new InvalidCommandException("code code cannot be empty");
+				case "Get": {
+					String code = request.getParameter("courseCode");
+					if (code == null || code.isEmpty()) {
+						throw new InvalidCommandException("code code cannot be empty");
+					}
+					CatalogManager cm = new CatalogManager();
+					System.out.println("INITIATING GET COURSE");
+					Course course = cm.getCourse(code.trim().toUpperCase());
+					System.out.println("GET COURSE QUERY WORKS");
+					session.setAttribute("course", course);
+					request.getRequestDispatcher("/displayCourse.jsp").forward(request, response);
+					return;
 				}
-				CatalogManager cm = new CatalogManager();
-				System.out.println("INITIATING GET COURSE");
-				Course course = cm.getCourse(code.trim().toUpperCase());
-				System.out.println("GET COURSE QUERY WORKS");
-				session.setAttribute("course", course);
-				request.getRequestDispatcher("/displayCourse.jsp").forward(request, response);
-				return;
-			}
-				// User request: add a new course
-			case "Add": {
-				session.setAttribute("course", null);
-				request.getRequestDispatcher("/addCourse.jsp").forward(request, response);
-				return;
-			}
-			default: {
-				throw new InvalidCommandException("Unrecognized command:" + command);
-			}
+					// User request: add a new course
+				case "Add": {
+					session.setAttribute("course", null);
+					request.getRequestDispatcher("/addCourse.jsp").forward(request, response);
+					return;
+				}
+				default: {
+					throw new InvalidCommandException("Unrecognized command:" + command);
+				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace(System.out);

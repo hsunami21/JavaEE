@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+	<title>Game Over - Guessing Game</title>
+</h:head> 
+<body> 
+<h1>Game over -- I won</h1>
+<p>Guessed your number 
+	<h:outputText value="#{WendallStephenGameBean.guess}" /> in 
+	<h:outputText value="#{WendallStephenGameBean.count}" /> tries.
+</p>
+<p>Please pay 
+	<h:outputText value="${bet}">
+		<f:convertNumber type="currency" currencySymbol="$" />
+	</h:outputText>
+</p>
+<a href="index.xhtml" style="font-weight:bold; font-style:underline">play again</a>
+</body> 
+</html>

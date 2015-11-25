@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head></h:head> 
+<body> 
+<h3>Election Results</h3>
+<h:dataTable border = "1" value="#{ballotBean.results()}" var="candidate">
+	<h:column>
+		<f:facet name="header"> 
+				<h:outputText value=" Candidate Name " />
+		</f:facet>
+		${candidate.name}
+	</h:column>
+	<h:column>
+		<f:facet name="header"> <h:outputText value=" Votes "/> </f:facet>
+		${candidate.votes}
+	</h:column>
+</h:dataTable>
+<h:messages style="color:red" />
+<p>Return to <a href="signin.xhtml">sign in</a> page.</p>
+</body> 
+</html>

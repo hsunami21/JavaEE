@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title>Student Election Login Page</title>
+</h:head>
+<body>
+	<h3>Welcome to the online election web site.</h3>
+	<p>
+		To vote, enter your student number and election password. Then click <b>Sign
+			In</b>.
+	</p>
+	<h:form id="login">
+	<table>
+	<tr>
+	<td colspan = "2"><h:messages id="messages" style="color:red" /></td>
+	</tr><tr>
+	<td>Student ID </td>
+	<td><h:inputText id="Student_ID" required="true" value="#{studentBean.studentId}" /></td>	
+	</tr><tr>
+	<td>Password</td>
+	<td><h:inputSecret id="Password"  type="password" required="true" value="#{studentBean.password}" /></td>	
+	</tr><tr> 
+	<td> &nbsp;</td>
+	<td><h:commandButton id="signin" 
+                    value="Sign in" 
+                    actionListener="#{studentBean.signin()}" 
+                    action="#{studentBean.getNextPage()}" />	
+	</td></tr>
+	</table></h:form>
+</body>
+</html>
+

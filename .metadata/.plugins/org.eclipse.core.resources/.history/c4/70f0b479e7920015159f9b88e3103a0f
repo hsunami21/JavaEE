@@ -1,0 +1,5 @@
+package binary.search.game.exceptions;
+
+public class ExcessGuessesException extends Exceptions {
+
+}

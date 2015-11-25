@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource declaration="true" name="%2;" path="%0"/>
+   <linked-resource declaration="true" name="%3;" path="%1"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <el>
+   <linked-el length="32" name="%1" offset="647" path="%4"/>
+   <linked-el length="31" name="%1" offset="456" path="%4"/>
+   <linked-el length="26" name="%1" offset="403" path="%5"/>
+   <linked-el length="48" name="%1" offset="592" path="%4"/>
+   <linked-el length="32" name="%3" offset="647" path="%4"/>
+   <linked-el length="31" name="%3" offset="456" path="%4"/>
+   <linked-el length="25" name="%3" offset="665" path="%5"/>
+   <linked-el length="30" name="%3" offset="547" path="%4"/>
+   <linked-el length="26" name="%3" offset="403" path="%5"/>
+   <linked-el length="24" name="%3" offset="547" path="%5"/>
+   <linked-el length="48" name="%3" offset="592" path="%4"/>
+   <linked-el length="26" name="%2" offset="871" path="%6"/>
+   <linked-el length="48" name="%2" offset="1048" path="%6"/>
+   <linked-el length="27" name="%2" offset="729" path="%6"/>
+   <linked-el length="31" name="%2" offset="1103" path="%6"/>
+   <linked-el length="25" name="%7" offset="665" path="%5"/>
+   <linked-el length="24" name="%7" offset="547" path="%5"/>
+   <linked-el length="26" name="%0" offset="871" path="%6"/>
+   <linked-el length="48" name="%0" offset="1048" path="%6"/>
+   <linked-el length="27" name="%0" offset="729" path="%6"/>
+   <linked-el length="31" name="%0" offset="1103" path="%6"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/StudentElectionJSFWeb/src/election/web/beans/BallotBean.java" value="%1"/>
+  <alias path="ballotBean" value="%3"/>
+  <alias path="/StudentElectionJSFWeb/WebContent/ballot.xhtml" value="%4"/>
+  <alias path="/StudentElectionJSFWeb/WebContent/results.xhtml" value="%5"/>
+  <alias path="studentBean" value="%2"/>
+  <alias path="/StudentElectionJSFWeb/WebContent/signin.xhtml" value="%6"/>
+  <alias
+   path="/StudentElectionJSFWeb/src/election/web/model/Candidate.java" value="%7"/>
+  <alias
+   path="/StudentElectionJSFWeb/src/election/web/beans/StudentBean.java" value="%0"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import election.web.model.Candidates;
 import election.web.model.StudentBody;
@@ -43,7 +44,7 @@ public class VoteServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String student = (String) request.getSession().getAttribute("student");
-		ServletContext ctx = this.getServletContext();
+		HttpSession ctx = request.getSession();
 		ctx.getAttribute("voteCount");
 		try {
 			if (!StudentBody.getInstance().getStudent(student).isVoted())
@@ -54,6 +55,8 @@ public class VoteServlet extends HttpServlet {
 					ctx.setAttribute("voteCount", 1);
 				else
 					ctx.setAttribute("voteCount", (int)(ctx.getAttribute("voteCount"))+1);
+				System.out.println("Using session");
+
 			}
 			else
 				throw new VotingException("Already Voted");
