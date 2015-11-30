@@ -1,0 +1,9 @@
+package team23_game_logic;
+
+public class AIMove {
+
+	public AIMove() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
