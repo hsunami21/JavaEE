@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Wendall, Karl, Stephen - Lines and Boxes</title>
+<title>Team 23 - Lines and Boxes - Setup</title>
 </head>
 <body>
 <h1 style="text-align: center">Lines and Boxes - Setup</h1>

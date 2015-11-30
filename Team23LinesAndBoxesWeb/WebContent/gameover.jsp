@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Lines and Boxes - Game Over</title>
+<title>Team 23 - Lines and Boxes - Game Over</title>
 </head>
 <body>
 

@@ -14,9 +14,7 @@ public class GameManager {
 
 	static EntityManagerFactory factory = Persistence.createEntityManagerFactory("Team23LinesAndBoxesPersistence");
 	EntityManager em = factory.createEntityManager();
-	
-	public int gameID = 1;
-	
+		
 	private static GameManager gm = null;
 	private String[][] cells = null;
 	
@@ -381,20 +379,13 @@ public class GameManager {
 		cells = new String[15][15];
 	}
 	
+	// ADD GAME RECORD TO DATABASE
 	public Game addGame() {
-		Game g = new Game(gameID, p1, p2, p1Score, p2Score);
-		Game game = em.find(Game.class, g.getGame_ID());
-		if (game != null)
-		{
-			gameID++;
-			addGame();
-		}
-		else
-		{
-			em.getTransaction().begin();
-			em.persist(g);
-			em.getTransaction().commit();
-		}
+		Game g = new Game(p1, p2, p1Score, p2Score);
+		
+		em.getTransaction().begin();
+		em.persist(g);
+		em.getTransaction().commit();
 		
 		return g;
 	}

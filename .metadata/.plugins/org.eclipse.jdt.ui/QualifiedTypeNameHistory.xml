@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="wendall.hsu.clock.model.DateTimeFormatException"/>
 <fullyQualifiedTypeName name="wendall.stephen.exceptions.StudentNotRecognizedException"/>
 <fullyQualifiedTypeName name="election.web.model.Candidates"/>
@@ -17,7 +16,6 @@
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
 <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -59,5 +57,7 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="team23_data.Game"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="team23_game_logic.GameManager"/>
 </qualifiedTypeNameHistroy>

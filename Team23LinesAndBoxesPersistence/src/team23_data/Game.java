@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -23,8 +25,7 @@ public class Game implements Serializable {
 		
 	}
 	
-	public Game(int game_ID, String p1_name, String p2_name, int p1_score, int p2_score) {
-		this.game_ID = game_ID;
+	public Game(String p1_name, String p2_name, int p1_score, int p2_score) {
 		this.p1_name = p1_name;
 		this.p2_name = p2_name;
 		this.p1_score = p1_score;
@@ -33,6 +34,7 @@ public class Game implements Serializable {
 	}
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column (name="GAME_ID", nullable=false)
 	public int getGame_ID() {
 		return game_ID;
