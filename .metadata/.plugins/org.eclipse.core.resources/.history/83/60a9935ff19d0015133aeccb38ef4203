@@ -1,0 +1,22 @@
+package wendall.stephen.election.beans;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+/**
+ * Session Bean implementation class ElectionManager
+ */
+@Stateless
+public class ElectionManager implements ElectionManagerLocal {
+	@PersistenceContext (name = "WendallStephenElectionEntities")
+	EntityManager em;
+	
+    /**
+     * Default constructor. 
+     */
+    public ElectionManager() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

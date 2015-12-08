@@ -1,0 +1,18 @@
+package wendall.stephen.election.beans;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ElectoralRoll
+ */
+@Stateless
+public class ElectoralRoll implements ElectoralRollLocal {
+
+    /**
+     * Default constructor. 
+     */
+    public ElectoralRoll() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects/>
- <used-by-projects/>
+ <used-by-projects>
+  <project name="Team23LinesAndBoxesWeb"/>
+ </used-by-projects>
  <paths>
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/javax/persistence/api/main/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/org/picketbox/main/picketbox-commons-1.0.0.final.jar"/>
@@ -115,7 +117,10 @@
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/javax/resource/api/main/jboss-connector-api_1.7_spec-1.0.0.Final.jar"/>
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.11.Final.jar"/>
  </paths>
- <includes/>
+ <validation>
+  <el/>
+ </validation>
  <aliases/>
+ <includes/>
  <uris/>
 </kb-project>

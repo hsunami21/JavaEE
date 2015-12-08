@@ -1,0 +1,34 @@
+package wendall.stephen.web.helper;
+
+public class VoteCounter {
+
+	public VoteCounter() {
+		// one JNDI context for the entire application
+		private static Context jndiContext = null;
+		
+		public VoteCounter() {
+		
+		}
+		
+		public static Context getJndiContext() throws NamingException {
+			if (jndiContext == null ) {
+				jndiContext = new InitialContext();
+			}
+			return jndiContext;
+		}
+		// Do JNDI lookup for an EJB in the same application
+		// Note: lookup the bean class name but cast to interface type
+		private ElectionManagerLocal getElectionManager() throws NamingException {
+			return (ElectionManagerLocal) getJndiContext().lookup( "java:app/JPAOnlineElectionEJBs/ElectionManager");
+		}
+		// call the method on the EJB
+		public void printVoteCount( ) {
+			try {
+				System.out.println( getElectionManager().getVoteCount() );
+			} catch ( NamingException | ElectionException e ) {
+				System.out.println( "Unable to get vote count: " + e.getMessage() );
+			}
+		}
+	}
+
+}

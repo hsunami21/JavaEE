@@ -1,0 +1,9 @@
+package wendall.stephen.web.helper;
+
+public class VoteCounter {
+
+	public VoteCounter() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

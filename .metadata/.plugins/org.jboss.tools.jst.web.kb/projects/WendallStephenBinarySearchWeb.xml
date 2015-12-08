@@ -124,52 +124,49 @@
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.11.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core">
    <linked-resource declaration="true" name="%1;" path="%0"/>
   </core>
-  <core validator-id="batch-verification"/>
-  <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="42" name="%0" offset="788" path="%2"/>
-   <linked-el length="34" name="%0" offset="464" path="%3"/>
+   <linked-el length="34" name="%0" offset="464" path="%2"/>
+   <linked-el length="42" name="%0" offset="788" path="%3"/>
    <linked-el length="42" name="%0" offset="1068" path="%4"/>
-   <linked-el length="34" name="%0" offset="432" path="%2"/>
-   <linked-el length="42" name="%0" offset="946" path="%2"/>
-   <linked-el length="31" name="%0" offset="665" path="%3"/>
+   <linked-el length="34" name="%0" offset="432" path="%3"/>
+   <linked-el length="42" name="%0" offset="946" path="%3"/>
+   <linked-el length="31" name="%0" offset="665" path="%2"/>
    <linked-el length="40" name="%0" offset="1021" path="%4"/>
-   <linked-el length="38" name="%0" offset="901" path="%2"/>
    <linked-el length="38" name="%0" offset="470" path="%5"/>
+   <linked-el length="38" name="%0" offset="901" path="%3"/>
    <linked-el length="32" name="%0" offset="826" path="%4"/>
-   <linked-el length="33" name="%0" offset="513" path="%2"/>
-   <linked-el length="34" name="%0" offset="552" path="%3"/>
-   <linked-el length="41" name="%0" offset="616" path="%2"/>
-   <linked-el length="37" name="%0" offset="744" path="%2"/>
-   <linked-el length="42" name="%1" offset="788" path="%2"/>
-   <linked-el length="34" name="%1" offset="464" path="%3"/>
+   <linked-el length="33" name="%0" offset="513" path="%3"/>
+   <linked-el length="34" name="%0" offset="552" path="%2"/>
+   <linked-el length="41" name="%0" offset="616" path="%3"/>
+   <linked-el length="37" name="%0" offset="744" path="%3"/>
+   <linked-el length="34" name="%1" offset="464" path="%2"/>
+   <linked-el length="42" name="%1" offset="788" path="%3"/>
    <linked-el length="42" name="%1" offset="1068" path="%4"/>
-   <linked-el length="34" name="%1" offset="432" path="%2"/>
+   <linked-el length="34" name="%1" offset="432" path="%3"/>
    <linked-el length="15" name="%1" offset="610" path="%5"/>
-   <linked-el length="42" name="%1" offset="946" path="%2"/>
-   <linked-el length="31" name="%1" offset="665" path="%3"/>
+   <linked-el length="42" name="%1" offset="946" path="%3"/>
+   <linked-el length="31" name="%1" offset="665" path="%2"/>
    <linked-el length="40" name="%1" offset="1021" path="%4"/>
-   <linked-el length="38" name="%1" offset="901" path="%2"/>
    <linked-el length="38" name="%1" offset="470" path="%5"/>
+   <linked-el length="38" name="%1" offset="901" path="%3"/>
    <linked-el length="32" name="%1" offset="826" path="%4"/>
-   <linked-el length="33" name="%1" offset="513" path="%2"/>
-   <linked-el length="34" name="%1" offset="552" path="%3"/>
-   <linked-el length="41" name="%1" offset="616" path="%2"/>
-   <linked-el length="37" name="%1" offset="744" path="%2"/>
+   <linked-el length="33" name="%1" offset="513" path="%3"/>
+   <linked-el length="34" name="%1" offset="552" path="%2"/>
+   <linked-el length="41" name="%1" offset="616" path="%3"/>
+   <linked-el length="37" name="%1" offset="744" path="%3"/>
   </el>
  </validation>
  <aliases>
   <alias
    path="/WendallStephenBinarySearchWeb/src/binary/search/game/model/BinarySearch.java" value="%0"/>
-  <alias path="/WendallStephenBinarySearchWeb/WebContent/gameover.xhtml" value="%3"/>
+  <alias path="/WendallStephenBinarySearchWeb/WebContent/gameover.xhtml" value="%2"/>
   <alias path="/WendallStephenBinarySearchWeb/WebContent/error.xhtml" value="%5"/>
   <alias path="WendallStephenGameBean" value="%1"/>
   <alias path="/WendallStephenBinarySearchWeb/WebContent/index.xhtml" value="%4"/>
-  <alias path="/WendallStephenBinarySearchWeb/WebContent/game.xhtml" value="%2"/>
+  <alias path="/WendallStephenBinarySearchWeb/WebContent/game.xhtml" value="%3"/>
  </aliases>
  <includes/>
  <uris>

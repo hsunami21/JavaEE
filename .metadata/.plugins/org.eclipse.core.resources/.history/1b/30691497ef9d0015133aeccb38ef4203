@@ -1,0 +1,123 @@
+package wendall.stephen.election.beans;
+
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+import election.web.exceptions.ElectionException;
+import online.election.entities.Candidate;
+import online.election.entities.Voter;
+import online.election.exceptions.CandidateException;
+
+
+
+/**
+ * Session Bean implementation class ElectionManager
+ */
+@Stateless
+public class ElectionManager implements ElectionManagerLocal {
+	@PersistenceContext (name = "WendallStephenElectionEntities")
+	EntityManager em;
+	
+    /**
+     * Default constructor. 
+     */
+    public ElectionManager() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    public List<String> getCandidateNames() throws ElectionException {
+		if (candidateNames == null) {
+			EntityManagerFactory emf = ElectionManager.getInstance().getEntityManagerFactory();
+//			EntityManager em = emf.createEntityManager();
+			Query q = em.createNamedQuery("Candidate.findAll");
+			List<Candidate> candidates = q.getResultList();
+			candidateNames = new ArrayList<String>();
+			for (Candidate candidate : candidates) {
+				candidateNames.add(candidate.getName());
+			}
+			em.close();
+		}		
+		return candidateNames;
+	}
+
+		public void printVoteCount(PrintStream out) throws ElectionException {
+		out.print("Vote count so far: ");
+		EntityManagerFactory emf = ElectionManager.getInstance().getEntityManagerFactory();
+//		EntityManager em = emf.createEntityManager();
+		Query q = em.createNamedQuery("Candidate.findAll");
+		List<Candidate> candidates = q.getResultList();
+		for ( Candidate c : candidates ) {
+			out.printf("[%-12s%4d] ", c.getName(), c.getVotes() );
+		}
+		out.println();
+		em.close();
+	}
+		
+		public boolean authenticate(String voterName, String voterId) throws ElectionException {
+			EntityManagerFactory emf = ElectionManager.getInstance().getEntityManagerFactory();
+//			EntityManager em = emf.createEntityManager();
+			Voter voter = getVoterByName(em, voterName);
+			if (voter == null) {
+				return false;
+			}
+			if (!voter.getVoterId().equals(voterId)) {
+				return false;
+			}
+			// you could argue the next condition belongs in login servlet
+			if (voter.isVoted()) {
+				throw new ElectionException("Attempt to vote twice: " + voterName);
+			}
+			return true;
+		}
+
+		// passing entity managers as argument so method can be called inside a transaction
+		public Voter getVoterByName(EntityManager em, String voterName) throws ElectionException {
+			Query q = em.createNamedQuery("Voter.getByName");
+			// assuming all voters have a unique name
+			q.setParameter("voterName", voterName);
+			List<Voter> voters = q.getResultList();
+			if (voters.size() != 1) {
+				return null;
+			}
+			return voters.get(0);
+		}
+		
+		// A transaction is required to update both VOTER and CANDIDATE tables
+		// Advanced thought: transactional processing should ensure vote count not corrupted
+		// by multithreading but that may depend on locking strategy of database
+		// Synchronizing this method could hurt performance at peak voting times
+		public void castBallot(String voterName, String candidateName) throws ElectionException, CandidateException {
+//			EntityManager em = emf.createEntityManager();
+//			EntityTransaction et = em.getTransaction();
+//			et.begin();
+			
+				Query q = em.createNamedQuery("getCandidateByName");
+				q.setParameter("candidateName", candidateName);
+				List<Candidate> candidates = q.getResultList();
+				if (candidates.size() != 1) {
+					// assuming all candidates have a unique name
+					throw new ElectionException("Attempt to vote for unknown candidate");
+				}
+				Candidate candidate = candidates.get(0);
+				candidate.setVotes(candidate.getVotes() + 1);
+				Voter voter = new ElectoralRoll().getVoterByName(em, voterName);
+				if (voter.isVoted()) {
+					throw new ElectionException("Attempt to vote twice: " + voterName);
+				}
+				voter.setVoted(true);
+				// em.merge(voter);           implied
+				// em.merge(candidate);       implied
+//				et.commit();
+			
+				em.close();
+			
+		}
+
+}

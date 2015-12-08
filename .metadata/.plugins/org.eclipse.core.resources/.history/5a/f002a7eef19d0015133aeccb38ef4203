@@ -1,0 +1,18 @@
+package wendall.stephen.election.beans;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class Candidates
+ */
+@Stateless
+public class Candidates implements CandidatesLocal {
+
+    /**
+     * Default constructor. 
+     */
+    public Candidates() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

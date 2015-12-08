@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="wendall.hsu.clock.model.DateTimeFormatException"/>
-<fullyQualifiedTypeName name="wendall.stephen.exceptions.StudentNotRecognizedException"/>
 <fullyQualifiedTypeName name="election.web.model.Candidates"/>
 <fullyQualifiedTypeName name="java.io.PrintStream"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="team23_data.Game"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="team23_game_logic.GameManager"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 </qualifiedTypeNameHistroy>

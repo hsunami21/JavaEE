@@ -1,17 +1,12 @@
 INDEX VERSION 1.3+C:\Users\Wendall\Desktop\Eclipse (Java EE) Work\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1935565942.index
-4027852909.index
-4264120910.index
-2813578152.index
-2718953777.index
-2612524731.index
-4156865352.index
-3785528686.index
-1924494978.index
-2432731065.index
 2580425660.index
-3319882033.index
+4264120910.index
 3116137459.index
-1545786496.index
+3319882033.index
+2432731065.index
+4156865352.index
+2612524731.index
+2813578152.index
 3600097516.index
-2469937402.index
+2626660083.index
+1935565942.index

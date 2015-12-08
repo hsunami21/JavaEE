@@ -1,0 +1,48 @@
+package election.web.model;
+
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Query;
+
+import election.web.exceptions.ElectionException;
+import online.election.entities.Candidate;
+
+public class Candidates {
+	private static List<String> candidateNames = null;
+	
+	public Candidates () {
+	}
+
+	public List<String> getCandidateNames() throws ElectionException {
+		if (candidateNames == null) {
+//			EntityManagerFactory emf = ElectionManager.getInstance().getEntityManagerFactory();
+//			EntityManager em = emf.createEntityManager();
+			Query q = em.createNamedQuery("Candidate.findAll");
+			List<Candidate> candidates = q.getResultList();
+			candidateNames = new ArrayList<String>();
+			for (Candidate candidate : candidates) {
+				candidateNames.add(candidate.getName());
+			}
+//			em.close();
+		}		
+		return candidateNames;
+	}
+
+		public void printVoteCount(PrintStream out) throws ElectionException {
+		out.print("Vote count so far: ");
+//		EntityManagerFactory emf = ElectionManager.getInstance().getEntityManagerFactory();
+//		EntityManager em = emf.createEntityManager();
+		Query q = em.createNamedQuery("Candidate.findAll");
+		List<Candidate> candidates = q.getResultList();
+		for ( Candidate c : candidates ) {
+			out.printf("[%-12s%4d] ", c.getName(), c.getVotes() );
+		}
+		out.println();
+//		em.close();
+	}
+
+}

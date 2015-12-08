@@ -1,0 +1,15 @@
+package wendall.stephen.election.beans;
+
+import java.io.PrintStream;
+import java.util.List;
+
+import javax.ejb.Local;
+
+import election.web.exceptions.ElectionException;
+
+@Local
+public interface CandidatesLocal {
+
+	public List<String> getCandidateNames() throws ElectionException;
+	public String getVoteCount() throws ElectionException;
+}

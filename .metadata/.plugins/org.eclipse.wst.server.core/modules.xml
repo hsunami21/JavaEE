@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:WendallHsuClockWeb" serverId="WildFly 9.x"/>
+  <module moduleId="org.eclipse.jst.jee.server:WendallStephenElectionEAR" serverId="WildFly 9.x"/>
+  <module moduleId="org.eclipse.jst.jee.server:WendallStephenElectionWeb" serverId="WildFly 9.x"/>
   <module moduleId="org.eclipse.jst.jee.server:TestDatasourceWeb" serverId="WildFly 9.x"/>
   <module moduleId="org.eclipse.jst.jee.server:WendallStephenOnlineElectionWeb" serverId="WildFly 9.x"/>
 </modules>

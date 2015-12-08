@@ -386,7 +386,7 @@ public class GameManager {
 		em.getTransaction().begin();
 		em.persist(g);
 		em.getTransaction().commit();
-		
+		System.out.println("Game added to database");
 		return g;
 	}
 }

@@ -116,9 +116,6 @@
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.11.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
-  <core validator-id="batch-verification"/>
   <el>
    <linked-el length="42" name="%0" offset="823" path="%1"/>
    <linked-el length="45" name="%0" offset="566" path="%2"/>
@@ -131,14 +128,14 @@
    <linked-el length="23" name="%5" offset="503" path="%2"/>
    <linked-el length="24" name="%8" offset="519" path="%3"/>
    <linked-el length="7" name="%9" offset="893" path="%3"/>
-   <linked-el length="42" name="%10" offset="823" path="%1"/>
-   <linked-el length="45" name="%10" offset="566" path="%2"/>
-   <linked-el length="42" name="%10" offset="432" path="%3"/>
-   <linked-el length="49" name="%10" offset="1237" path="%1"/>
-   <linked-el length="23" name="%11" offset="761" path="%1"/>
-   <linked-el length="23" name="%11" offset="366" path="%6"/>
-   <linked-el length="23" name="%11" offset="366" path="%7"/>
-   <linked-el length="23" name="%11" offset="503" path="%2"/>
+   <linked-el length="23" name="%10" offset="761" path="%1"/>
+   <linked-el length="23" name="%10" offset="366" path="%6"/>
+   <linked-el length="23" name="%10" offset="366" path="%7"/>
+   <linked-el length="23" name="%10" offset="503" path="%2"/>
+   <linked-el length="42" name="%11" offset="823" path="%1"/>
+   <linked-el length="45" name="%11" offset="566" path="%2"/>
+   <linked-el length="42" name="%11" offset="432" path="%3"/>
+   <linked-el length="49" name="%11" offset="1237" path="%1"/>
    <linked-el length="24" name="%12" offset="519" path="%3"/>
    <linked-el length="42" name="%13" offset="823" path="%1"/>
    <linked-el length="45" name="%13" offset="566" path="%2"/>
@@ -148,7 +145,7 @@
  </validation>
  <aliases>
   <alias path="/WendallHsuClubMembershipWeb/WebContent/error.jsp" value="%6"/>
-  <alias path="pageContext.request" value="%10"/>
+  <alias path="pageContext.request" value="%11"/>
   <alias path="/WendallHsuClubMembershipWeb/WebContent/errorLogin.jsp" value="%7"/>
   <alias path="/WendallHsuClubMembershipWeb/WebContent/main.jsp" value="%3"/>
   <alias path="/WendallHsuClubMembershipWeb/WebContent/index.jsp" value="%1"/>
@@ -158,10 +155,20 @@
   <alias path="requestScope" value="%5"/>
   <alias path="sessionScope.userName" value="%8"/>
   <alias path="name" value="%9"/>
-  <alias path="requestScope.message" value="%11"/>
+  <alias path="requestScope.message" value="%10"/>
   <alias path="sessionScope" value="%12"/>
   <alias path="pageContext.request.contextPath" value="%13"/>
  </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/functions">
+   <prefix>fn</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/fmt">
+   <prefix>fmt</prefix>
+  </uri>
+ </uris>
 </kb-project>

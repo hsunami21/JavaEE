@@ -2332,3 +2332,231 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-30 00:19:33.774
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-30 01:01:13.304
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 01:01:13.304
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 01:01:13.305
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 01:01:13.305
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 01:01:13.305
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 01:01:13.305
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF\classes. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-30 01:01:16.212
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-30 01:01:16.381
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-11-30 15:05:29.927
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-11-30 15:05:39.387
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-11-30 15:09:39.338
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 15:09:39.338
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 15:09:39.338
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 15:09:39.338
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 15:09:39.338
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-11-30 15:09:39.338
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF\classes. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-11-30 15:09:42.658
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-11-30 15:09:42.981
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-12-01 14:59:24.964
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-12-01 14:59:52.970
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-01 14:59:53.011
+!MESSAGE Module Team23LinesAndBoxes on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-12-01 15:12:35.996
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-01 15:12:35.996
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-01 15:12:35.996
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-01 15:12:35.996
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-01 15:12:35.996
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-01 15:12:35.996
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\Team23LinesAndBoxes.ear\Team23LinesAndBoxesWeb.war\WEB-INF\classes. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-12-01 15:12:52.208
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-12-01 15:12:52.399
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-12-08 14:52:42.195
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-12-08 14:53:08.752
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-12-08 15:03:03.883
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-12-08 15:03:04.094
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-12-08 15:03:05.281
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-12-08 15:03:10.306
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-12-08 15:03:40.548
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.548
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.548
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.548
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.548
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.549
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.549
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election\web. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:03:40.549
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election\web. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-12-08 15:03:43.142
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-12-08 15:03:43.640
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-12-08 15:05:10.642
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-12-08 15:05:17.520
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-12-08 15:10:26.415
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election\web. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:10:26.415
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election\web. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-12-08 15:18:02.112
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-12-08 15:18:02.351
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-12-08 15:19:17.183
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-12-08 15:19:28.506
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 15:27:30.999
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2015-12-08 15:28:11.406
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 4 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes. May be locked by another process.
+!SUBENTRY 5 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election. May be locked by another process.
+!SUBENTRY 6 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election\web. May be locked by another process.
+!SUBENTRY 7 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-12-08 15:28:11.406
+!MESSAGE Could not delete C:\Users\Wendall\Desktop\wildfly-9.0.1.Final\standalone\deployments\WendallStephenElectionEAR.ear\JPAOnlineElectionWeb.war\WEB-INF\classes\election\web. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 15:29:31.997
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 15:31:55.115
+!MESSAGE Module WendallStephenElectionWeb on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 15:32:15.136
+!MESSAGE Module WendallStephenElectionWeb on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 17:33:47.249
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 17:34:07.289
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 17:35:11.370
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 17:35:31.389
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-12-08 17:45:46.048
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2015-12-08 17:45:50.198
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-12-08 17:45:53.643
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-12-08 17:46:03.042
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 17:46:18.951
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 17:46:38.965
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 17:50:11.094
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 17:50:31.110
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 17:53:41.204
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 17:54:01.223
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-12-08 17:57:53.015
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-12-08 17:58:13.034
+!MESSAGE Module WendallStephenElectionEAR on WildFly 9.x still not ready to be shown in browser. Aborting delay.

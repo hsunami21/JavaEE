@@ -116,9 +116,6 @@
   <path value="C:/Users/Wendall/Desktop/wildfly-9.0.1.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/async-http-servlet-3.0-3.0.11.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
-  <core validator-id="batch-verification"/>
   <el>
    <linked-el length="22" name="%0" offset="645" path="%1"/>
    <linked-el length="21" name="%2" offset="370" path="%3"/>
